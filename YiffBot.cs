@@ -15,12 +15,12 @@ class Program
         //ENTER YOUR USERNAME FROM E621.NET HERE
         string username = "KRAKENcracker";
         //ENTER YOUR API KEY FROM E621.NET HERE
-        string apiKey = "gSLz3GTJMeF3e1Xoh1bNs8jc";
+        string apiKey = "apikeyhere";
         //ENTER THE MESSAGES YOU WANT THE BOT TO RANDOMLY SEND WITH A IMAGE, LEAVE IT EMPTY IF YOU DONT WANT ANY
         string[] messagew = new string[] { "daddy", "OwO", "uWu", "UwU", "Ahhhhhhh", "Ouch", "Agggggh", "this message was randomly generated", "hi", "¯_(ツ)_/¯", "V.V", "gay ass furry", "i have a raging porn addiction", "you have a raging porn addiction", "go do something better then this", "[insert inspirational quote here]" };
 
         //ENTER YOUR DISCORD WEBHOOK HERE
-        var client = new RestClient("https://discord.com/api/webhooks/1085642415446175878/Jh5LfhxVC3HEXOLho409SGrviOOMmmtOlcuRpcgkiEFsR7_9KCsPt3rZdeYxACa1x2M0");
+        var client = new RestClient("webhookhere");
         //ENTER WHAT GENDER YOU WANT
         string gender = "female";
 
